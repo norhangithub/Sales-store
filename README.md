@@ -70,18 +70,23 @@ The dashboard is built on a single page with a dark theme for high contrast and 
     * **Average Store Size (1.38K):** A key metric for store operations, from the `Store` table.
     * **Average Delivery Days (5):** A measure of supply chain efficiency, from the `Orders` table.
 
+![alt text](/Images/category.PNG)
 * **Total Sales by Product Category (Bar Chart):**
     * **Insight:** Clearly shows that "Computers" is the dominant sales category (8.3M), followed by "Home Appliances" (4.6M). This visual uses `Total Sales` and the `Category[ProductCategory]` column.
 
+![alt text](/Images/gender.PNG)
 * **Total Sales By Gender (Donut Chart):**
     * **Insight:** The customer base is almost evenly split, with "Male" (51%) customers accounting for slightly more sales. This uses `Total Sales` and the `Customers[CustomerGender]` column.
 
+![alt text](/Images/sales%20by%20continent.PNG)
 * **Sales By Continent (Treemap):**
     * **Insight:** "North America" (15M) is by far the largest market. This visual uses `Total Sales` and the `Customers[CustomerContinent]` column.
 
+![alt text](/Images/Best-selling%20products.PNG)
 * **Best-Selling Products (Matrix):**
     * **Insight:** Provides a granular view of top products, broken down by continent. This uses `Products[ProductName]`, `Customers[CustomerContinent]`, and `Total Sales`.
 
+![alt text](/Images/Total%20Salse%20vs%20total%20profit.PNG)
 * **Total Sales vs Total Profit (Combo Chart):**
     * **Insight:** This trend chart shows the relationship between sales (bars) and profit (line) over time (2016-2021). This uses the `Total Sales` and `Total Profit` measures against a Date dimension (likely from the `Orders[OrderDate]` column).
 
